@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://romantyzm.netlify.app/sitemap.xml
+Host: https://romantyzm.netlify.app
+
