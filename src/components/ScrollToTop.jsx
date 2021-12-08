@@ -20,7 +20,7 @@ const ToTop = styled.div`
   display: ${({ scrollState }) => (scrollState ? "block" : "none")};
   position: fixed;
   cursor: pointer;
-  z-index: 10;
+  z-index: 100;
   bottom: 1rem;
   left: 2rem;
   border-radius: 2rem;
@@ -28,7 +28,7 @@ const ToTop = styled.div`
   padding: 1rem 1.15rem;
 
   @media only screen and (max-width: 768px) {
-    right: 1rem;
+    left: 1rem;
   }
   svg {
     transition: 0.6s ease-in-out;
